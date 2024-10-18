@@ -11,7 +11,7 @@ def clean_dictionary(input_file, output_file):
         file.write('\n'.join(cleaned_words))
     print(f"Cleaned dictionary saved to {output_file}")
 #files
-input_file = 'dictionary1.txt'
-output_file = 'cleaned_dictionary.txt'
+input_file = '336.txt'
+output_file = 'final336.txt'
 #Final
 clean_dictionary(input_file, output_file)
